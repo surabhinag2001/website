@@ -7,7 +7,7 @@ export default function Home() {
   const [bg, setBg] = useState("bg-white");
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-center p-8 sm:p-12 md:p-24 mx-auto ${bg}`}
+      className={`transition-all ease flex min-h-screen flex-col items-center justify-center p-8 sm:p-12 md:p-24 mx-auto ${bg}`}
     >
       <nav className="flex justify-end fixed top-0 w-full">
         <div className="flex gap-2 py-4 px-6">
@@ -57,7 +57,7 @@ export default function Home() {
           </p>
           <p className="text-lg mt-2">
             Click to see my{" "}
-            <Link href="/" className="font-medium underline">
+            <Link href="/resume.pdf" className="font-medium underline">
               resume
             </Link>{" "}
             or contact me.
