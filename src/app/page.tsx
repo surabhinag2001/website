@@ -57,7 +57,11 @@ export default function Home() {
           </p>
           <p className="text-lg mt-2">
             Click to see my{" "}
-            <Link href="/resume.pdf" className="font-medium underline">
+            <Link
+              href="/resume.pdf"
+              className="font-medium underline"
+              target="_blank"
+            >
               resume
             </Link>{" "}
             or contact me.
