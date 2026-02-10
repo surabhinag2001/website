@@ -51,14 +51,14 @@ export default function Home() {
             and critiquing<span className="font-medium"> matcha</span> are a big
             part of my personality. I enjoy{" "}
             <span className="font-medium">writing code</span> and building
-            stuff. I am currently studying{" "}
-            <span className="font-medium">CS</span> at{" "}
-            <span className="font-medium">University of British Columbia.</span>
+            stuff. I studied <span className="font-medium">CS</span> at{" "}
+            <span className="font-medium">University of British Columbia</span>.
+            Now I work on <span className="font-medium">backend systems</span>.
           </p>
           <p className="text-lg mt-2">
             Click to see my{" "}
             <Link
-              href="/resume.pdf"
+              href="/resume2026.pdf"
               className="font-medium underline"
               target="_blank"
             >
